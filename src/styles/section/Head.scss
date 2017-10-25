@@ -1,0 +1,30 @@
+.head-component {
+  // border: 1px dashed #f00;
+  height: 70px;
+  color:#fff;  
+  >.headLine{
+    background-color: rgba(0,0,0,0.8);
+    height: 70px;
+    line-height: 70px;
+    >.logo{
+      >p{
+        height: 70px;
+        // line-height: 70px;
+        text-align: right;
+      }
+    }
+    >.navList{
+      height: 100%;
+      ul>li{
+        display: inline-block;
+        // padding: 0 1vw;
+      }
+      // line-height: 
+    }
+    >.toolList{
+      .searchInput{
+        width: 100px!important;
+      }
+    }
+  }
+}
